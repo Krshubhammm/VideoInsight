@@ -1,69 +1,52 @@
 # VideoInsight
+VideoInsight is an advanced AI-powered tool that quickly transcribes videos and enables intelligent question-answering about the content. Transform your video content into searchable, analyzable text and engage in dynamic Q&A sessions in minutes!
 
-VideoInsight is a cutting-edge AI tool that transcribes videos and enables intelligent question-answering about the content. Transform hours of video into searchable, analyzable text and engage in dynamic Q&A sessions in less than 3 minutes!
-
-🚀 Features
-
-Rapid Video Processing: Transcribe hour-long videos in under 3 minutes
-Advanced Speech Recognition: Utilizes Whisper Large V3 for 95%+ accuracy
-Speaker Diarization: Automatically identifies and labels different speakers
-Multilingual Support: Handles 100+ languages with ease
-Intelligent Q&A: Powered by Google's Gemini Pro model for comprehensive answers
-Efficient Retrieval: Uses FAISS and Azure OpenAI embeddings for fast, accurate context retrieval
-User-Friendly Interface: Built with Streamlit for easy interaction
-Flexible API Management: Rotates between multiple API keys to prevent rate limiting
-
-🛠️ Tech Stack
-
+# Implemented Features
+ 1: Swift Video Processing: Transcribe videos efficiently, typically processing hour-long content in under 3 minutes.
+ 2: State-of-the-Art Speech Recognition: Utilizes Whisper Large V3 model for high-accuracy transcription.
+ 3: Intelligent Q&A System
+ 4: Powered by Google's Gemini Pro model: Provides comprehensive and context-aware answers.
+ 5: k-Similarity Search: Retrieves relevant context efficiently.
+ 6: Score-based RAG (Retrieval-Augmented Generation): Improves answer quality.
+    Efficient Retrieval
+ 7: FAISS (Facebook AI Similarity Search): Enables fast and scalable similarity search.
+ 8: API Key Management: Multiple Groq API Keys Rotation: Prevents rate limiting and ensures uninterrupted service.
+ # Tech Stack
 Python 3.8+
 Streamlit
-OpenAI Whisper
+OpenAI Whisper (via Groq API)
 Google Gemini Pro
 FAISS
 Azure OpenAI
 MoviePy
 Pydub
-
-📋 Prerequisites
-
+# Prerequisites
 Python 3.8 or higher
-API keys for Google AI, Azure OpenAI, and Groq
+API keys:
+Google AI (for Gemini Pro)
+Azure OpenAI
+Multiple Groq API keys
 FFmpeg installed on your system
-
-🔧 Installation
-
+# Installation
 Clone the repository:
 git clone https://github.com/krshubhammm/VideoInsight.git
 cd VideoInsight
-
 Install required packages:
-Copypip install -r requirements.txt
 
+pip install -r requirements.txt
 Set up your environment variables in a .env file:
+
 GOOGLE_API_KEY=your_google_api_key
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
 AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
-GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2
-
-
-🚀 Usage
-
+GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2,your_groq_api_key3
+# Usage
 Run the Streamlit app:
 streamlit run app.py
-
 Upload a video file through the web interface.
-Wait for the transcription process to complete (typically under 3 minutes for hour-long videos).
+
+Wait for the transcription process to complete.
+
 Start asking questions about the video content in the chat interface.
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check issues page.
-
-📝 License
-This project is MIT licensed.
-
-🙏 Acknowledgements
-
-OpenAI for the Whisper model
-Google for the Gemini Pro model
-Microsoft for Azure OpenAI services
-The Streamlit team for their amazing framework
+This README.md provides a clear and structured overview of your project, making it easy for others to understand and contribute.
