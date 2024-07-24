@@ -1,6 +1,7 @@
 # VideoInsight
 Transform hours of video into searchable, analyzable text and engage in dynamic Q&amp;A sessions in less than 3 minutes!
 VideoInsight is a cutting-edge AI tool that transcribes videos and enables intelligent question-answering about the content. Transform hours of video into searchable, analyzable text and engage in dynamic Q&A sessions in minutes!
+
 🚀 Features
 
 Rapid Video Processing: Transcribe hour-long videos in under 3 minutes
@@ -32,14 +33,14 @@ FFmpeg installed on your system
 🔧 Installation
 
 Clone the repository:
-Copygit clone https://github.com/yourusername/VideoInsight.git
+git clone https://github.com/krshubhammm/VideoInsight.git
 cd VideoInsight
 
 Install required packages:
 Copypip install -r requirements.txt
 
 Set up your environment variables in a .env file:
-CopyGOOGLE_API_KEY=your_google_api_key
+GOOGLE_API_KEY=your_google_api_key
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
 AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
 GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2
@@ -48,7 +49,7 @@ GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2
 🚀 Usage
 
 Run the Streamlit app:
-Copystreamlit run app.py
+streamlit run app.py
 
 Upload a video file through the web interface.
 Wait for the transcription process to complete (typically under 3 minutes for hour-long videos).
@@ -56,8 +57,10 @@ Start asking questions about the video content in the chat interface.
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check issues page.
+
 📝 License
 This project is MIT licensed.
+
 🙏 Acknowledgements
 
 OpenAI for the Whisper model
