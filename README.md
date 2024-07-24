@@ -1,6 +1,6 @@
 # VideoInsight
-Transform hours of video into searchable, analyzable text and engage in dynamic Q&amp;A sessions in less than 3 minutes!
-VideoInsight is a cutting-edge AI tool that transcribes videos and enables intelligent question-answering about the content. Transform hours of video into searchable, analyzable text and engage in dynamic Q&A sessions in minutes!
+
+VideoInsight is a cutting-edge AI tool that transcribes videos and enables intelligent question-answering about the content. Transform hours of video into searchable, analyzable text and engage in dynamic Q&A sessions in less than 3 minutes!
 
 🚀 Features
 
