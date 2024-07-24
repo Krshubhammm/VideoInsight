@@ -37,10 +37,10 @@ cd VideoInsight
   pip install -r requirements.txt
   
 - Set up your API keys in a .env file:
--- GOOGLE_API_KEY=your_google_api_key_here
--- AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
--- AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint_here
--- GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2,your_groq_api_key3
+- GOOGLE_API_KEY=your_google_api_key_here
+- AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
+- AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint_here
+- GROQ_API_KEYS=your_groq_api_key1,your_groq_api_key2,your_groq_api_key3
 
 
 ## Usage
