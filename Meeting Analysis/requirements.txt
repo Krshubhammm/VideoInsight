@@ -1,0 +1,10 @@
+python-dotenv
+openai
+langchain_openai
+pydub
+python-docx
+streamlit
+moviepy
+langchain
+langchain_community
+langchain_google_genai
